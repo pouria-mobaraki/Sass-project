@@ -85,6 +85,19 @@ h4 {
   gap: 1.5rem;
 }
 
+.button {
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 3rem;
+  transition: 0.5s;
+}
+.button:hover {
+  background: var(--container-color);
+  outline: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
 .button__header {
   display: none;
 }
@@ -139,6 +152,15 @@ h4 {
   top: 4rem;
 }
 
+@media screen and (min-width: 767px) {
+  .nav .nav__list {
+    flex-direction: row;
+    column-gap: 2.5rem;
+  }
+  .nav__toggle {
+    display: none;
+  }
+}
 @media screen and (min-width: 800px) {
   h1 {
     font-size: 3rem;
@@ -151,6 +173,15 @@ h4 {
   }
   h4 {
     font-size: 1rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .container {
+    width: 95vw;
+  }
+  .button__header {
+    display: block;
+    padding: 0.4rem 1.5rem;
   }
 }
 h1 {

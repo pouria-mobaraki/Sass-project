@@ -1,3 +1,16 @@
+@media screen and (min-width: 767px) {
+  .nav {
+    .nav__list {
+        flex-direction: row;
+        column-gap: 2.5rem;
+    }
+
+    &__toggle {
+        display: none;
+    }
+  }
+}
+
 @media screen and (min-width: 800px) {
     h1 {
         font-size: 3rem;
@@ -12,3 +25,14 @@
         font-size: 1rem;
     }
 }
+
+@media screen and (min-width: 992px) {
+.container {
+    width: 95vw;
+}
+
+    .button__header {
+     display: block;
+     padding: .4rem 1.5rem;
+    }
+  }
