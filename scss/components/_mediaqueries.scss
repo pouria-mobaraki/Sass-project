@@ -1,3 +1,23 @@
+@media screen and (min-width: 576px) {
+    .svg__img {
+        width: 100%;
+    }
+
+.home {
+    padding-top: 7rem;
+}
+
+    .home__container {
+        
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+
+    }
+    .home__img {
+        order: 1;
+    }
+  }
+
 @media screen and (min-width: 767px) {
   .nav {
     .nav__list {
@@ -29,6 +49,10 @@
 @media screen and (min-width: 992px) {
 .container {
     width: 95vw;
+}
+
+.svg__img {
+    width: 500px;
 }
 
     .button__header {
