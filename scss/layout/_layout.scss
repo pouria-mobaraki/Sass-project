@@ -17,6 +17,11 @@
         span{
             color: var(--primary-color);
         }
+
+        &-center {
+            @extend .section__title;
+            text-align: center;
+        }
     }
 }
 
@@ -26,3 +31,4 @@
         justify-self: center;
     }
 }
+
