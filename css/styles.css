@@ -212,6 +212,13 @@ h4 {
   text-align: center;
 }
 
+.support__container {
+  gap: 2rem;
+}
+.support__info {
+  text-align: center;
+}
+
 @media screen and (min-width: 576px) {
   .svg__img {
     width: 100%;
@@ -220,7 +227,8 @@ h4 {
     padding-top: 7rem;
   }
   .home__container,
-  .about__container {
+  .about__container,
+  .support__container {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
   }
@@ -230,7 +238,7 @@ h4 {
   .about__img {
     order: -1;
   }
-  .about__info {
+  .about__info, .support__info {
     text-align: right;
   }
 }

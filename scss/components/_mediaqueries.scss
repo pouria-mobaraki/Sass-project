@@ -8,7 +8,8 @@
 }
 
     .home__container,
-    .about__container {
+    .about__container,
+    .support__container {
         
         grid-template-columns: repeat(2,1fr);
         align-items: center;
@@ -22,7 +23,7 @@
         order: -1;
     }
 
-    .about__info {
+    .about__info,.support__info {
      text-align: right;
     }
   }
