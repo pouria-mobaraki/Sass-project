@@ -10,7 +10,8 @@
     .home__container,
     .about__container,
     .support__container,
-    .services__container{
+    .services__container,
+    .contact__container{
         
         grid-template-columns: repeat(2,1fr);
         align-items: center;
@@ -27,12 +28,15 @@
     .app__title {
         // text-align: right;
     }
+    .section__title-center {
+        text-align: right;
+    }
 
     // .app__info {
     //  grid-template-columns: repeat(1,max-content);
     // }
 
-    .about__info,.support__info {
+    .about__info,.support__info,.contact__description {
      text-align: right;
     }
 
@@ -101,5 +105,9 @@
 
     .services__container{
         grid-template-columns: repeat(3,1fr);
+    }
+
+    .contact__container {
+        grid-template-columns: 3fr 1.5fr 1.25fr;
     }
   }
