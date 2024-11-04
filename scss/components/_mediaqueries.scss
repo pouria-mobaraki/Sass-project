@@ -10,7 +10,7 @@
     .home__container,
     .about__container,
     .support__container,
-    .services__container {
+    .services__container{
         
         grid-template-columns: repeat(2,1fr);
         align-items: center;
@@ -24,8 +24,20 @@
         order: -1;
     }
 
+    .app__title {
+        // text-align: right;
+    }
+
+    // .app__info {
+    //  grid-template-columns: repeat(1,max-content);
+    // }
+
     .about__info,.support__info {
      text-align: right;
+    }
+
+    .services__container{
+        grid-template-columns: repeat(1,1fr);
     }
   }
 
@@ -40,6 +52,14 @@
         display: none;
     }
   }
+  .app__container {
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+  }
+
+  .services__container{
+    grid-template-columns: repeat(3,1fr);
+}
 }
 
 @media screen and (min-width: 800px) {
@@ -69,6 +89,14 @@
     .button__header {
      display: block;
      padding: .3rem 1.5rem;
+    }
+
+    .home__container,
+    .about__container,
+    .support__container,
+    .app__container {
+        
+     column-gap: 6rem;
     }
 
     .services__container{
