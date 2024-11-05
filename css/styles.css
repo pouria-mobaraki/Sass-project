@@ -334,6 +334,28 @@ h4 {
   color: var(--title-color);
 }
 
+.scrollup {
+  position: fixed;
+  background: var(--primary-color);
+  right: 2rem;
+  bottom: -20%;
+  padding: 0.5rem 0.3rem;
+  border-radius: 0.25rem;
+  opacity: 0.8;
+  transition: 0.4s;
+}
+.scrollup:hover {
+  opacity: 1;
+}
+.scrollup__icon {
+  font-size: 1.25rem;
+  color: var(--container-color);
+}
+
+.show-scroll {
+  bottom: 3rem;
+}
+
 @media screen and (min-width: 576px) {
   .svg__img {
     width: 100%;
