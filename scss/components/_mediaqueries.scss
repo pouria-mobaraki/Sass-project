@@ -60,6 +60,11 @@
         display: none;
     }
   }
+
+.change-theme {
+    position: unset;
+}
+
   .app__container {
     grid-template-columns: repeat(2,1fr);
     align-items: center;
